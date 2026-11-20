@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="g_gold" x1="68" y1="0" x2="272" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c98f00"/><stop offset="0.45" stop-color="#ffd700"/><stop offset="1" stop-color="#f7c412"/>
+    </linearGradient>
+    <linearGradient id="g_goldMid" x1="68" y1="0" x2="272" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8a6a00"/><stop offset="0.5" stop-color="#e8c25a"/><stop offset="1" stop-color="#c9940a"/>
+    </linearGradient>
+    <linearGradient id="g_bronze" x1="68" y1="0" x2="272" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5c3d00"/><stop offset="0.5" stop-color="#b8860b"/><stop offset="1" stop-color="#8a5a00"/>
+    </linearGradient>
+    <linearGradient id="g_black" x1="68" y1="0" x2="272" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000"/><stop offset="0.5" stop-color="#2b2b2b"/><stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="0" y1="0" x2="0" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe680"/><stop offset="0.5" stop-color="#f7c412"/><stop offset="1" stop-color="#9a6a00"/>
+    </linearGradient>
+    <radialGradient id="pegGrad" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#fff6c9"/><stop offset="0.55" stop-color="#ffd700"/><stop offset="1" stop-color="#7a5c00"/>
+    </radialGradient>
+    <radialGradient id="hubGrad" cx="0.4" cy="0.35" r="1">
+      <stop offset="0" stop-color="#3a3a3a"/><stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="sheen" cx="0.42" cy="0.38" r="0.75">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="300" cy="300" r="280" fill="none" stroke="url(#rimGrad)" stroke-width="17"/>
+  <circle cx="300" cy="300" r="289" fill="none" stroke="#4a3500" stroke-width="1.5"/>
+  <circle cx="300" cy="300" r="271" fill="none" stroke="#4a3500" stroke-width="1.5"/>
+    <g transform="rotate(2 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_goldMid)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="26"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">100% MATCH</text>
+    </g>
+    <g transform="rotate(32 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_bronze)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="30"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">15 SPINS</text>
+    </g>
+    <g transform="rotate(62 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_black)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="20"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">NO LUCK TODAY</text>
+    </g>
+    <g transform="rotate(92 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_gold)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="30"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">125 SPINS</text>
+    </g>
+    <g transform="rotate(122 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_goldMid)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="26"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">100% MATCH</text>
+    </g>
+    <g transform="rotate(152 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_bronze)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="30"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">15 SPINS</text>
+    </g>
+    <g transform="rotate(182 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_black)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="20"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">NO LUCK TODAY</text>
+    </g>
+    <g transform="rotate(212 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_gold)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="30"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">125 SPINS</text>
+    </g>
+    <g transform="rotate(242 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_goldMid)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="26"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">100% MATCH</text>
+    </g>
+    <g transform="rotate(272 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_bronze)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="30"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">15 SPINS</text>
+    </g>
+    <g transform="rotate(302 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_black)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="20"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">NO LUCK TODAY</text>
+    </g>
+    <g transform="rotate(332 300 300)">
+      <path d="M 365.7 282.4 L 562.7 229.6 A 272 272 0 0 1 562.7 370.4 L 365.7 317.6 A 68 68 0 0 0 365.7 282.4 Z" fill="url(#g_gold)" stroke="#000" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="470" y="300" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, 'Helvetica Neue', sans-serif" font-weight="900" font-size="30"
+            fill="#fff" stroke="rgba(0,0,0,0.65)" stroke-width="1.2" paint-order="stroke"
+            textLength="150" lengthAdjust="spacingAndGlyphs">125 SPINS</text>
+    </g>
+    <circle cx="573.5" cy="383.6" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="495.1" cy="509.2" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="364.3" cy="578.7" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="216.4" cy="573.5" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="90.8" cy="495.1" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="21.3" cy="364.3" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="26.5" cy="216.4" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="104.9" cy="90.8" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="235.7" cy="21.3" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="383.6" cy="26.5" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="509.2" cy="104.9" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+    <circle cx="578.7" cy="235.7" r="7" fill="url(#pegGrad)" stroke="#5c4500" stroke-width="1"/>
+  <circle cx="300" cy="300" r="272" fill="url(#sheen)" pointer-events="none"/>
+  <circle cx="300" cy="300" r="66" fill="url(#hubGrad)" stroke="url(#rimGrad)" stroke-width="5"/>
+  <circle cx="300" cy="300" r="58" fill="none" stroke="#f7c412" stroke-opacity="0.5" stroke-width="1.5"/>
+</svg>
